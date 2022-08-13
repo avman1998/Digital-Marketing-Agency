@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  font-family: "Poppins";
+}
+body {
+  width: 100%;
+  min-height: 100hv;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+}
+.navbar-container {
+  display: flex;
+  margin: 50px 100px 0px 100px;
+}
+
+.grow-list .list {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.grow-list .list li {
+  list-style-type: none;
+  margin-right: 30px;
+  color: #bababa;
+}
+
+.grow-list .list li:hover {
+  color: black;
+  cursor: pointer;
+}
+.button-group .nav-button {
+  margin-left: 500px;
+  margin-top: 10px;
+  background-color: #5955b3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+}
+section .banner-container div > img {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 640px;
+}
+
+section .banner-container div:first-child {
+  position: absolute;
+  width: 500px;
+  margin: 175px 0px 0px 100px;
+}
+section .banner-container .heading-text {
+  font-size: 320%;
+  color: #3c2f60;
+  padding: 0px 40px 0px 0px;
+}
+section .banner-container .heading-text span {
+  color: #5955b3;
+}
+section .banner-container .description {
+  margin-top: 20px;
+  color: #a7a7a7;
+}
+section .banner-container .btn {
+  background-color: #5955b3;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 70px;
+  font-size: 110%;
+}
